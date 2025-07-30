@@ -153,10 +153,28 @@ ul {
     font-size: 16px;
 }
 
+.reinciar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+}
+
 .button-draw img {
     margin-right: 40px;
 }
 
 .button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+.reinciar img {
+    margin-right: 40px;
+}
+
+.reinciar:hover {
     background-color: var(--color-button-hover);
 }
